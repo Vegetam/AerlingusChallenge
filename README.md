@@ -24,3 +24,17 @@ API for Search Airplane by arrival by time as example :
 
 http://localhost:8080/flight/arrival/1000 - 1300
 curl -X GET "http://localhost:8080/flight/arrival/1000 - 130"
+
+
+# Design Pattern used :
+Affordance
+Loosely Coupled
+Statelessness
+Content Negotiation
+URI Templates
+Discoverability By Valid HTTP Methods
+Ubiquitous web standards
+Flexibility
+Standardization
+Optimization
+Clean Code Principles with the Kiss Design pattern
