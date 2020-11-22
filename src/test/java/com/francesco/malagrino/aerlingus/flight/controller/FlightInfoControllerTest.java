@@ -39,14 +39,14 @@ public class FlightInfoControllerTest {
 
 	@Test
 	public void test_get_flight_details_by_location_code() throws Exception {
-		mockMvc.perform(get("/{version}/flight/location/{locationCode}", "v1", "DUB")
+		mockMvc.perform(get("/flight/location/{locationCode}", "v1", "DUB")
 				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 	}
 
 	@Test
 	@WithMockUser
 	public void test_get_flight_details_by_arrival_time() throws Exception {
-		mockMvc.perform(get("/{version}/flight/arrival/{flightTime}", "v1", "1000 - 1300")
+		mockMvc.perform(get("/flight/arrival/{flightTime}", "v1", "1000 - 1300")
 				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk());
 	}
 
@@ -54,7 +54,7 @@ public class FlightInfoControllerTest {
 	@WithMockUser
 	public void test_should_return_when_flight_info_object_is_null_or_empty() throws Exception {
 		when(service.listFlightInfoByLocationCode("LHR")).thenReturn(null);
-		mockMvc.perform(get("/{version}/flight/arrival/{flightTime}", "v1", "1000 - 1300")
+		mockMvc.perform(get("/flight/arrival/{flightTime}", "v1", "1000 - 1300")
 				.contentType(MediaType.APPLICATION_JSON).accept(MediaType.APPLICATION_JSON)).andExpect(status().isOk())
 				.andExpect(jsonPath("$").doesNotExist());
 	}
