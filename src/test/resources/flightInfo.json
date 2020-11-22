@@ -1,0 +1,600 @@
+{
+    "success": {},
+    "flightInfoDetails": [
+        {
+            "flightLegInfos": [
+                {
+                    "departureAirport": {
+                        "locationCode": "DUB"
+                    },
+                    "arrivalAirports": [
+                        {
+                            "diversion": false,
+                            "locationCode": "DUB"
+                        }
+                    ],
+                    "marketingAirline": {
+                        "value": "EI"
+                    },
+                    "operatingAirline": {
+                        "code": "EI"
+                    },
+                    "equipment": {
+                        "airEquipType": "320",
+                        "aircraftTailNumber": "320-13"
+                    },
+                    "departureDateTime": {
+                        "scheduled": "2020-11-12T04:00:00.000Z"
+                    },
+                    "arrivalDateTime": {
+                        "scheduled": "2020-11-12T22:50:00.000Z"
+                    },
+                    "journeyDuration": "P0DT18H50M0S"
+                }
+            ],
+            "messageStatus": "On Time",
+            "flightNumber": "SB01",
+            "tpaextensions": {
+                "cancelled": false,
+                "messageTimestamp": "2020-11-10T10:43:07.000Z",
+                "departureInformation": {
+                    "hideInFIDS": false,
+                    "rampAgentActive": false,
+                    "offScreenTime": "PT15M",
+                    "specialServices": false
+                },
+                "arrivalInformation": {
+                    "hideInFIDS": false,
+                    "rampAgentActive": false,
+                    "offScreenTime": "PT15M"
+                },
+                "diversionInformations": [
+                    {
+                        "flightDiversionInProgress": false,
+                        "legDiversionInProgress": false,
+                        "diversionLeg": false,
+                        "divertedLeg": false,
+                        "redundantLeg": false,
+                        "newLegDiversion": false,
+                        "reroutedLeg": false,
+                        "rerouteLeg": false
+                    }
+                ],
+                "cabins": [
+                    {
+                        "className": "Y",
+                        "description": "Economy"
+                    }
+                ],
+                "dcsinformation": {
+                    "availableSeats": 174,
+                    "disruptionInfo": false,
+                    "flightType": "E",
+                    "legNumber": 1,
+                    "legCount": 1,
+                    "regSnag": false
+                },
+                "atcinformation": {}
+            }
+        },
+        
+        
+        
+        
+        {
+            "flightLegInfos": [
+                {
+                    "departureAirport": {
+                        "locationCode": "DUB",
+                        "gate": "423"
+                    },
+                    "arrivalAirports": [
+                        {
+                            "diversion": false,
+                            "locationCode": "CDG"
+                        }
+                    ],
+                    "marketingAirline": {
+                        "value": "EI"
+                    },
+                    "operatingAirline": {
+                        "code": "EI"
+                    },
+                    "equipment": {
+                        "airEquipType": "320",
+                        "aircraftTailNumber": "EICVA"
+                    },
+                    "departureDateTime": {
+                        "scheduled": "2020-11-12T07:00:00.000Z",
+                        "actual": "2020-11-12T07:00:00.000Z"
+                    },
+                    "arrivalDateTime": {
+                        "scheduled": "2020-11-12T09:45:00.000+01:00",
+                        "estimated": "2020-11-12T09:32:00.000+01:00",
+                        "actual": "2020-11-12T09:28:00.000+01:00"
+                    },
+                    "operationTimes": {
+                        "operationTimes": [
+                            {
+                                "operationType": "2.BRD",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.PUS",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.TKO",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.LND",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.STD",
+                                "timeType": "Actual"
+                            }
+                        ]
+                    },
+                    "journeyDuration": "P0DT1H28M0S",
+                    "groundDuration": "PT19M"
+                }
+            ],
+            "messageStatus": "Early",
+            "flightNumber": "0520",
+            "totalFlightTime": "PT76M",
+            "tpaextensions": {
+                "cancelled": false,
+                "messageTimestamp": "2020-11-12T08:56:07.000Z",
+                "departureInformation": {
+                    "hideInFIDS": false,
+                    "loaderCrew": ".3",
+                    "plannedETETime": "PT77M",
+                    "rampAgent": "JMMAHONY",
+                    "rampAgentActive": true,
+                    "rampAgentRadio": "  18",
+                    "offScreenTime": "PT15M",
+                    "standNumber": "405T",
+                    "specialServices": false,
+                    "taxiOutTime": "PT12M"
+                },
+                "arrivalInformation": {
+                    "hideInFIDS": false,
+                    "rampAgentActive": false,
+                    "offScreenTime": "PT15M",
+                    "taxiInTime": "PT7M",
+                    "timeAdjustment": 60
+                },
+                "diversionInformations": [
+                    {
+                        "flightDiversionInProgress": false,
+                        "legDiversionInProgress": false,
+                        "diversionLeg": false,
+                        "divertedLeg": false,
+                        "redundantLeg": false,
+                        "newLegDiversion": false,
+                        "reroutedLeg": false,
+                        "rerouteLeg": false
+                    }
+                ],
+                "fuelInformation": {
+                    "planning": {
+                        "burnOff": 2885,
+                        "target": 6400,
+                        "flightPlan": 5483,
+                        "taxi": 173,
+                        "zfw": 48439
+                    },
+                    "uplift": {
+                        "kilos": 3680,
+                        "litres": 4600,
+                        "gam": 4600
+                    },
+                    "departure": {
+                        "pushback": 6760,
+                        "pushbackM2P": 14600,
+                        "taxiOut": 274,
+                        "takeoff": 6486,
+                        "takeoffM2P": 14300
+                    },
+                    "arrival": {
+                        "landing": 3583,
+                        "landingM2P": 7900,
+                        "taxiIn": 3,
+                        "onStand": 3580,
+                        "onStandM2P": 7800
+                    },
+                    "specificGravityGAM": 0.8
+                },
+                "passengerInformations": [
+                    {
+                        "description": "Class 2",
+                        "boarding": 20
+                    },
+                    {
+                        "description": "Class 2",
+                        "disembarking": 20
+                    },
+                    {
+                        "description": "Economy",
+                        "booked": 54
+                    },
+                    {
+                        "description": "Economy",
+                        "flown": 20
+                    },
+                    {
+                        "description": "Adult",
+                        "booked": 54
+                    },
+                    {
+                        "description": "Adult",
+                        "flown": 20
+                    },
+                    {
+                        "description": "Prestige",
+                        "booked": 1
+                    },
+                    {
+                        "description": "Prestige",
+                        "flown": 1
+                    },
+                    {
+                        "description": "Gold",
+                        "booked": 1
+                    },
+                    {
+                        "description": "Gold",
+                        "flown": 1
+                    },
+                    {
+                        "description": "No Status",
+                        "booked": 5
+                    },
+                    {
+                        "description": "No Status",
+                        "flown": 3
+                    },
+                    {
+                        "description": "Male",
+                        "flown": 13
+                    },
+                    {
+                        "description": "Female",
+                        "flown": 7
+                    }
+                ],
+                "dateTimeExtra": {
+                    "doorsClosedDateTime": "2020-11-12T06:54:00.000Z",
+                    "firstPaxDateTime": "2020-11-12T06:25:00.000Z",
+                    "lastPaxDateTime": "2020-11-12T06:36:00.000Z"
+                },
+                "cabins": [
+                    {
+                        "className": "J",
+                        "description": "Business"
+                    },
+                    {
+                        "className": "Y",
+                        "description": "Economy"
+                    }
+                ],
+                "dcsinformation": {
+                    "aircraftRegistration": "EICVA",
+                    "availableSeats": 172,
+                    "currentStatus": "PD",
+                    "disruptionInfo": true,
+                    "dryOperatingWeight": 42951,
+                    "estimatedOnRouteTime": "PT0077M",
+                    "flightType": "J",
+                    "legNumber": 1,
+                    "legCount": 1,
+                    "payloadFlownWeight": 19549,
+                    "regSnag": false
+                },
+                "atcinformation": {}
+            }
+        },
+        {
+            "flightLegInfos": [
+                {
+                    "departureAirport": {
+                        "locationCode": "DUB",
+                        "gate": "426"
+                    },
+                    "arrivalAirports": [
+                        {
+                            "diversion": false,
+                            "locationCode": "AMS"
+                        }
+                    ],
+                    "marketingAirline": {
+                        "value": "EI"
+                    },
+                    "operatingAirline": {
+                        "code": "EI"
+                    },
+                    "equipment": {
+                        "airEquipType": "320",
+                        "aircraftTailNumber": "EIDEO"
+                    },
+                    "departureDateTime": {
+                        "scheduled": "2020-11-12T07:00:00.000Z",
+                        "actual": "2020-11-12T06:52:00.000Z"
+                    },
+                    "arrivalDateTime": {
+                        "scheduled": "2020-11-12T09:40:00.000+01:00",
+                        "estimated": "2020-11-12T09:11:00.000+01:00",
+                        "actual": "2020-11-12T09:08:00.000+01:00"
+                    },
+                    "operationTimes": {
+                        "operationTimes": [
+                            {
+                                "operationType": "2.BRD",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.PUS",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.TKO",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.LND",
+                                "timeType": "Actual"
+                            },
+                            {
+                                "operationType": "2.STD",
+                                "timeType": "Actual"
+                            }
+                        ]
+                    },
+                    "journeyDuration": "P0DT1H16M0S",
+                    "groundDuration": "PT25M"
+                }
+            ],
+            "messageStatus": "Early",
+            "flightNumber": "0602",
+            "totalFlightTime": "PT64M",
+            "tpaextensions": {
+                "cancelled": false,
+                "messageTimestamp": "2020-11-12T08:41:05.000Z",
+                "departureInformation": {
+                    "hideInFIDS": false,
+                    "loaderCrew": ".4",
+                    "plannedETETime": "PT69M",
+                    "rampAgent": "NCOLEMAN",
+                    "rampAgentActive": true,
+                    "rampAgentRadio": "  08",
+                    "offScreenTime": "PT15M",
+                    "standNumber": "404R",
+                    "specialServices": false,
+                    "taxiOutTime": "PT12M"
+                },
+                "arrivalInformation": {
+                    "hideInFIDS": false,
+                    "rampAgentActive": false,
+                    "offScreenTime": "PT15M",
+                    "taxiInTime": "PT13M",
+                    "timeAdjustment": 60
+                },
+                "diversionInformations": [
+                    {
+                        "flightDiversionInProgress": false,
+                        "legDiversionInProgress": false,
+                        "diversionLeg": false,
+                        "divertedLeg": false,
+                        "redundantLeg": false,
+                        "newLegDiversion": false,
+                        "reroutedLeg": false,
+                        "rerouteLeg": false
+                    }
+                ],
+                "fuelInformation": {
+                    "planning": {
+                        "burnOff": 2447,
+                        "target": 5400,
+                        "flightPlan": 4499,
+                        "taxi": 173,
+                        "zfw": 46184
+                    },
+                    "uplift": {
+                        "kilos": 2844,
+                        "litres": 3600,
+                        "m2I": 3600,
+                        "r39": 2485,
+                        "gam": 3600
+                    },
+                    "departure": {
+                        "pushback": 5564,
+                        "pushbackM2P": 11800,
+                        "pushbackR39": 5370,
+                        "taxiOut": 393,
+                        "takeoff": 5171,
+                        "takeoffM2P": 11400,
+                        "takeoffR39": 5170
+                    },
+                    "arrival": {
+                        "landing": 2948,
+                        "landingM2P": 6500,
+                        "landingR39": 2957,
+                        "taxiIn": 108,
+                        "onStand": 2840,
+                        "onStandM2P": 6300,
+                        "onStandR39": 2848
+                    },
+                    "specificGravityGAM": 0.79,
+                    "specificGravityM2I": 0.79
+                },
+                "passengerInformations": [
+                    {
+                        "description": "Class 2",
+                        "boarding": 29
+                    },
+                    {
+                        "description": "Class 2",
+                        "disembarking": 29
+                    },
+                    {
+                        "description": "Economy",
+                        "booked": 37
+                    },
+                    {
+                        "description": "Economy",
+                        "flown": 29
+                    },
+                    {
+                        "description": "Adult",
+                        "booked": 37
+                    },
+                    {
+                        "description": "Adult",
+                        "flown": 29
+                    },
+                    {
+                        "description": "Prestige",
+                        "booked": 1
+                    },
+                    {
+                        "description": "Prestige",
+                        "flown": 1
+                    },
+                    {
+                        "description": "No Status",
+                        "booked": 3
+                    },
+                    {
+                        "description": "No Status",
+                        "flown": 3
+                    },
+                    {
+                        "description": "Male",
+                        "flown": 22
+                    },
+                    {
+                        "description": "Female",
+                        "flown": 7
+                    }
+                ],
+                "dateTimeExtra": {
+                    "doorsClosedDateTime": "2020-11-12T06:49:00.000Z",
+                    "firstPaxDateTime": "2020-11-12T06:25:00.000Z",
+                    "lastPaxDateTime": "2020-11-12T06:46:00.000Z"
+                },
+                "cabins": [
+                    {
+                        "className": "J",
+                        "description": "Business"
+                    },
+                    {
+                        "className": "Y",
+                        "description": "Economy"
+                    }
+                ],
+                "dcsinformation": {
+                    "aircraftRegistration": "EIDEO",
+                    "availableSeats": 172,
+                    "currentStatus": "PD",
+                    "disruptionInfo": true,
+                    "dryOperatingWeight": 42951,
+                    "estimatedOnRouteTime": "PT0069M",
+                    "flightType": "J",
+                    "legNumber": 1,
+                    "legCount": 1,
+                    "payloadFlownWeight": 19549,
+                    "regSnag": false
+                },
+                "atcinformation": {}
+            }
+        },
+        {
+            "flightLegInfos": [
+                {
+                    "departureAirport": {
+                        "locationCode": "DUB",
+                        "gate": "408"
+                    },
+                    "arrivalAirports": [
+                        {
+                            "diversion": false,
+                            "locationCode": "CFN"
+                        }
+                    ],
+                    "marketingAirline": {
+                        "value": "EI"
+                    },
+                    "operatingAirline": {
+                        "code": "EI"
+                    },
+                    "equipment": {
+                        "airEquipType": "ATR",
+                        "aircraftTailNumber": "EIGEV"
+                    },
+                    "departureDateTime": {
+                        "scheduled": "2020-11-12T19:00:00.000Z"
+                    },
+                    "arrivalDateTime": {
+                        "scheduled": "2020-11-12T20:05:00.000Z"
+                    },
+                    "journeyDuration": "P0DT1H5M0S"
+                }
+            ],
+            "messageStatus": "On Time",
+            "flightNumber": "3408",
+            "tpaextensions": {
+                "cancelled": false,
+                "messageTimestamp": "2020-11-12T07:41:21.000Z",
+                "departureInformation": {
+                    "hideInFIDS": false,
+                    "rampAgent": "SHPARTNER",
+                    "rampAgentActive": false,
+                    "offScreenTime": "PT15M",
+                    "standNumber": "400L",
+                    "specialServices": true
+                },
+                "arrivalInformation": {
+                    "hideInFIDS": false,
+                    "rampAgentActive": false,
+                    "offScreenTime": "PT15M"
+                },
+                "diversionInformations": [
+                    {
+                        "flightDiversionInProgress": false,
+                        "legDiversionInProgress": false,
+                        "diversionLeg": false,
+                        "divertedLeg": false,
+                        "redundantLeg": false,
+                        "newLegDiversion": false,
+                        "reroutedLeg": false,
+                        "rerouteLeg": false
+                    }
+                ],
+                "cabins": [
+                    {
+                        "className": "Y",
+                        "description": "Economy"
+                    }
+                ],
+                "dcsinformation": {
+                    "aircraftRegistration": "EIGEV",
+                    "availableSeats": 48,
+                    "currentStatus": "FE",
+                    "disruptionInfo": true,
+                    "flightType": "J",
+                    "legNumber": 1,
+                    "legCount": 1,
+                    "regSnag": false,
+                    "wheelChairCount": 1
+                },
+                "atcinformation": {}
+            }
+        }
+    ],
+    "timeStamp": "2020-11-12T16:48:04.270Z",
+    "targetName": "localhost",
+    "transactionIdentifier": "1e44200e-a965-4fb2-91cf-afe14ca55217",
+    "correlationID": "5df02a37-fed7-44d4-8acd-271f4cf67128"
+}
